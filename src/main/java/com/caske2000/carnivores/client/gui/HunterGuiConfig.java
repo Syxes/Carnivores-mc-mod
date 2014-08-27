@@ -9,9 +9,9 @@ import com.caske2000.carnivores.reference.Reference;
 
 import cpw.mods.fml.client.config.GuiConfig;
 
-public class HunterGuiConfig extends GuiConfig {
+public class CarnivoresGuiConfig extends GuiConfig {
 
-	public HunterGuiConfig(GuiScreen guiScreen) {
+	public CarnivoresGuiConfig(GuiScreen guiScreen) {
 
 		super(guiScreen, new ConfigElement(ConfigurationHandler.configuration.getCategory(Configuration.CATEGORY_GENERAL)).getChildElements(),
 				Reference.MODID, false, false, GuiConfig.getAbridgedConfigPath(ConfigurationHandler.configuration.toString()));
