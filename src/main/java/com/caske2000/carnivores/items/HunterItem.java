@@ -11,9 +11,9 @@ import com.caske2000.carnivores.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class HunterItem extends Item {
+public class CarnivoresItem extends Item {
 
-	public HunterItem() {
+	public CarnivoresItem() {
 
 		super();
 		setCreativeTab(Hunter.carnivoresTab);
