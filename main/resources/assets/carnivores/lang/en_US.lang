@@ -1,0 +1,10 @@
+item.carnivores:gun.name=Gun
+item.carnivores:ammo.name=Ammo
+
+entity.Bullet.name=Bullet
+entity.Utahraptor.name=Utahraptor
+
+itemGroup.carnivoresTab=Hunter
+
+key.caske2000.category=Hunter
+key.caske2000.points=Points
