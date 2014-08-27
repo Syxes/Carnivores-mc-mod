@@ -16,9 +16,9 @@ import net.minecraft.entity.passive.EntityAnimal;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;
 
-public class EntityHunterMob extends EntityMob {
+public class EntityCarnivoresMob extends EntityMob {
 
-	public EntityHunterMob(World world) {
+	public EntityCarnivoresMob(World world) {
 
 		super(world);
 		this.setSize(1.0F, 1.0F);
