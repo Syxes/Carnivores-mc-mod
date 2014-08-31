@@ -26,6 +26,10 @@ public class ModelBullet extends ModelBase {
 		Shape1.render(f5);
 	}
 
+	public void renderModel(float f){
+		Shape1.render(f);
+	}
+	
 	private void setRotation(ModelRenderer model, float x, float y, float z) {
 		model.rotateAngleX = x;
 		model.rotateAngleY = y;

@@ -1,8 +1,8 @@
 [
 {
   "modid": "carnivores",
-  "name": "Hunter",
-  "description": "An awesome mod willed with dinosaurs!",
+  "name": "Carnivores",
+  "description": "Hunt Dinosaurs on the planet UV-32 for points, which are spent for better equipment, guns and more dinos to hunt.",
   "version": "1.0",
   "mcversion": "1.7.10",
   "url": "",

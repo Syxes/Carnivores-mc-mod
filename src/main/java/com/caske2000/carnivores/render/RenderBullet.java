@@ -8,7 +8,8 @@ import net.minecraft.util.ResourceLocation;
 
 import org.lwjgl.opengl.GL11;
 
-import com.caske2000.carnivores.entity.EntityBullet;
+import com.caske2000.carnivores.entity.EntityPistolBullet;
+import com.caske2000.carnivores.model.ModelBullet;
 import com.caske2000.carnivores.reference.Reference;
 
 public class RenderBullet extends RenderLiving {
@@ -19,10 +20,11 @@ public class RenderBullet extends RenderLiving {
 
 		super(model, var2);
 		shadowSize = 0.5F;
+		model = new ModelBullet();
 
 	}
 
-	public void render(EntityBullet bullet, double d, double d1, double d2, float f, float f1) {
+	public void render(EntityPistolBullet bullet, double d, double d1, double d2, float f, float f1) {
 
 		GL11.glPushMatrix();
 		GL11.glTranslatef((float) d, (float) d1, (float) d2);
@@ -46,7 +48,7 @@ public class RenderBullet extends RenderLiving {
 	@Override
 	public void doRender(Entity entity, double d, double d1, double d2, float f, float f1) {
 
-		render((EntityBullet) entity, d, d1, d2, f, f1);
+		render((EntityPistolBullet) entity, d, d1, d2, f, f1);
 
 	}
 

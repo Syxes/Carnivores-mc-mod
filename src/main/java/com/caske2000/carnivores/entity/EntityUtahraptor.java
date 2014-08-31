@@ -2,7 +2,7 @@ package com.caske2000.carnivores.entity;
 
 import net.minecraft.world.World;
 
-public class EntityUtahraptor extends EntityHunterMob {
+public class EntityUtahraptor extends EntityCarnivoresMob {
 
 	public EntityUtahraptor(World world) {
 
